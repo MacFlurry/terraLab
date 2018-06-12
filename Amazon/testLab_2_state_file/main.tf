@@ -8,7 +8,7 @@ resource "aws_s3_bucket" "terraform_state" {
     bucket = "terraform-bucket-omega"
 
     versioning {
-        enable = true
+        enabled = true
     }
 
     lifecycle {
